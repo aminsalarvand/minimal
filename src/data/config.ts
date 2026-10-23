@@ -11,10 +11,10 @@ import type { IconType } from "react-icons";
  */
 
 export const site = {
-  name: "Your Name",
+  name: "Amin Salarvand",
   role: "Frontend Developer",
   bio: "I craft minimal, accessible interfaces with a focus on performance and detail. Currently building things on the web with React & TypeScript.",
-  email: "hello@example.com",
+  email: "salarvand.developer@gmail.com",
   location: "Earth",
   cvUrl: "/cv.pdf",
   // Replace with your Formspree endpoint: https://formspree.io
