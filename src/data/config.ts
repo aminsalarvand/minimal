@@ -37,32 +37,37 @@ export type Project = {
   github: string;
 };
 
+
 export const projects: Project[] = [
   {
-    title: "Project One",
-    description: "A short description of what this project does and the problem it solves.",
-    tags: ["React", "TypeScript", "Tailwind"],
-    image: "/placeholder.svg",
-    demo: "https://example.com",
-    github: "https://github.com/your-username/project-one",
+    title: "Cloth Store",
+    description:
+      "A modern clothing e-commerce application built with Next.js, featuring product categories, shopping cart functionality, and a responsive shopping experience.",
+    tags: ["Next.js", "React", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+    image: "/portfolio/projects/cloth-store.png",
+    demo: "",
+    github: "",
   },
   {
-    title: "Project Two",
-    description: "Another project highlighting your craft, with a focus on UX and performance.",
-    tags: ["Next.js", "Node", "Postgres"],
-    image: "/placeholder.svg",
-    demo: "https://example.com",
-    github: "https://github.com/your-username/project-two",
+    title: "Techno Shop",
+    description:
+      "An e-commerce project for technology products, combining a React frontend with a Spring Boot backend and MySQL database.",
+    tags: ["React", "Java", "Spring Boot", "MySQL"],
+    image: "/portfolio/projects/techno-shop.png",
+    demo: "",
+    github: "",
   },
   {
-    title: "Project Three",
-    description: "An open source library or tool you've built or contributed to.",
-    tags: ["Vite", "Library", "DX"],
-    image: "/placeholder.svg",
-    demo: "https://example.com",
-    github: "https://github.com/your-username/project-three",
+    title: "Radio Player",
+    description:
+      "A personal web-based radio player built with React and JavaScript, with a Python Flask service supporting its AI feature.",
+    tags: ["React", "JavaScript", "Python", "Flask"],
+    image: "/portfolio/projects/radio-player.png",
+    demo: "",
+    github: "",
   },
 ];
+
 
 export type Skill = { name: string; Icon: IconType };
 
